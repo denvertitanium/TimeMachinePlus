@@ -1,0 +1,17 @@
+"Window": {
+	backgroundColor: "#fff",
+	layout:'vertical'
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+},
+"ImageView": {
+	top:20
+}

@@ -1,0 +1,16 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Tab 1" icon="KS_nav_ui.png">
+			<Window title="Tab 1">
+				<ImageView id="image" image="/denver_skyline.jpg" />
+				<Slider id="slider" top="30" min="0" max="100" width="100%" value="50"  onChange="updateLabel"/>
+				<Label id="label" width="100%" top="10" left="0">New Slider!</Label>
+			</Window>
+		</Tab>
+		<Tab title="Tab 2" icon="KS_nav_views.png">
+			<Window title="Tab 2">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>
